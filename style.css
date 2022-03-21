@@ -1,0 +1,12 @@
+body{  
+    background: ghostwhite;  
+    color: dimgray;  
+    font-family: 'Quicksand', serif;  
+    text-align: center;  
+}  
+h1{font-size: 200%;}  
+#container {  
+    margin: 5% auto;  
+    border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;  
+    text-align: center;  
+}  
