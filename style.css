@@ -18,3 +18,15 @@ h1{font-size: 200%;}
     text-align: center;  
     box-sizing:border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;  
     padding: 0px;  
+}
+span{  
+    position: absolute;  
+    font-size: 75px;  
+    font-family: 'Raleway', sans-serif;  
+    text-align: center;  
+    height: 75px;  
+    width: 75px;  
+    padding: 0px;  
+    margin: 5px;  
+    margin-left: -35px;  
+}  
