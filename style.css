@@ -30,3 +30,24 @@ span{
     margin: 5px;  
     margin-left: -35px;  
 }  
+.top{border-top: none;}  
+.bottom{border-bottom: none;}  
+.left{border-left: none;}  
+.right{border-right: none;}  
+.alert{  
+     height: 75px;  
+     width : 125px;  
+     display: inline-block;  
+     background: ghostwhite;  
+     position: relative;  
+     z-index: 7;  
+     margin-top: -50%;  
+     border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px;  
+     box-shadow: 0 0 75px 2px dimgray;  
+     animation: larger 0.5s; -webkit-animation: larger 0.5s; -moz-animation: larger 0.5s;  
+     animation-fill-mode: forwards; -webkit-animation-fill-mode: forwards; -moz-animation-fill-mode: forwards;  
+     box-sizing: content-box; -webkit-box-sizing: content-box; -moz-box-sizing: content-box;  
+     padding:30px;  
+     bottom: 50px;  
+     top: 0px;  
+}  
