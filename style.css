@@ -51,3 +51,16 @@ span{
      bottom: 50px;  
      top: 0px;  
 }  
+@keyframes larger{ from{height: 75px; width: 125px;} to{height: 100px;width: 250px;}}  
+ @-webkit-keyframes larger{ from{height: 75px; width: 125px;} to{height: 100px;width: 250px;}}  
+ @-moz-keyframes larger{ from{height: 75px; width: 125px;} to{height: 100px;width: 250px;}}  
+ @-o-@keyframes larger{ from{height: 75px; width: 125px;} to{height: 100px;width: 250px;}}  
+ button{  
+      background: dimgray;  
+      border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px;  
+      color: ghostwhite;  
+      border: none;  
+      outline: none;  
+ }  
+ button:focus{background: silver;}  
+ .activeBox{background: silver;}  
