@@ -40,3 +40,11 @@ span = document.getElementsByTagName("span");
           gameOver(a);  
      }  
 }  
+function playAgain(){  
+     document.getElementsByClassName("alert")[0].parentNode.removeChild(document.getElementsByClassName("alert")[0]);  
+     resetGame();  
+     window.isGameOver = false;  
+     for(var k =0; k<span.length; k++){  
+          span[k].parentNode.className= span[k].parentNode.className.replace("activeBox", "");//remove activebox class; you can use classlist.remove , but it doesn't support all browsers  
+     }  
+}  
