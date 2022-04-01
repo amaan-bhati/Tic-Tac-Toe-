@@ -48,3 +48,11 @@ function playAgain(){
           span[k].parentNode.className= span[k].parentNode.className.replace("activeBox", "");//remove activebox class; you can use classlist.remove , but it doesn't support all browsers  
      }  
 }  
+// reset game function
+function resetGame(){  
+     for (i=0; i<span.length; i++){  
+          span[i].dataset.player = "none";  
+          span[i].innerHTML = "&nbsp;"  
+     }  
+     playerTurn = "x";  
+}  
